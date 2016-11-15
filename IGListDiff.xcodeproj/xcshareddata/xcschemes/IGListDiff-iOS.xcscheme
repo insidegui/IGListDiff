@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD7CA1BD1DAECCC10020B93F"
-               BuildableName = "IGListDiff.framework"
-               BlueprintName = "IGListDiff"
+               BlueprintIdentifier = "DDCE26091DDBC43800DE59DB"
+               BuildableName = "IGListDiff-iOS.framework"
+               BlueprintName = "IGListDiff-iOS"
                ReferencedContainer = "container:IGListDiff.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD7CA1BD1DAECCC10020B93F"
-            BuildableName = "IGListDiff.framework"
-            BlueprintName = "IGListDiff"
+            BlueprintIdentifier = "DDCE26091DDBC43800DE59DB"
+            BuildableName = "IGListDiff-iOS.framework"
+            BlueprintName = "IGListDiff-iOS"
             ReferencedContainer = "container:IGListDiff.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD7CA1BD1DAECCC10020B93F"
-            BuildableName = "IGListDiff.framework"
-            BlueprintName = "IGListDiff"
+            BlueprintIdentifier = "DDCE26091DDBC43800DE59DB"
+            BuildableName = "IGListDiff-iOS.framework"
+            BlueprintName = "IGListDiff-iOS"
             ReferencedContainer = "container:IGListDiff.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

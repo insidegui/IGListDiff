@@ -27,6 +27,26 @@
 		DD7CA1EB1DAECD120020B93F /* IGListDiffCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD7CA1DA1DAECD120020B93F /* IGListDiffCore.mm */; };
 		DD7CA1EE1DAECD640020B93F /* IGListMoveIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1EC1DAECD640020B93F /* IGListMoveIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD7CA1EF1DAECD640020B93F /* IGListMoveIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CA1ED1DAECD640020B93F /* IGListMoveIndex.m */; };
+		DDCE260B1DDBC43800DE59DB /* NSObject+IGListDiffable.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CA1D91DAECD120020B93F /* NSObject+IGListDiffable.m */; };
+		DDCE260C1DDBC43800DE59DB /* IGListMoveIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CA1ED1DAECD640020B93F /* IGListMoveIndex.m */; };
+		DDCE260D1DDBC43800DE59DB /* IGListIndexSetResult.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CA1D71DAECD120020B93F /* IGListIndexSetResult.m */; };
+		DDCE260E1DDBC43800DE59DB /* IGListMoveIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CA1D81DAECD120020B93F /* IGListMoveIndexPath.m */; };
+		DDCE260F1DDBC43800DE59DB /* IGListIndexPathResult.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CA1D61DAECD120020B93F /* IGListIndexPathResult.m */; };
+		DDCE26101DDBC43800DE59DB /* IGListDiffCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD7CA1DA1DAECD120020B93F /* IGListDiffCore.mm */; };
+		DDCE26131DDBC43800DE59DB /* IGListMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1D11DAECD120020B93F /* IGListMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDCE26141DDBC43800DE59DB /* IGListIndexSetResult.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1CF1DAECD120020B93F /* IGListIndexSetResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDCE26151DDBC43800DE59DB /* IGListDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1C11DAECCC10020B93F /* IGListDiff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDCE26161DDBC43800DE59DB /* IGListExperiments.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1CC1DAECD120020B93F /* IGListExperiments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDCE26171DDBC43800DE59DB /* IGListDiffable.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1CA1DAECD120020B93F /* IGListDiffable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDCE26181DDBC43800DE59DB /* IGListMoveIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1EC1DAECD640020B93F /* IGListMoveIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDCE26191DDBC43800DE59DB /* IGListIndexPathResult.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1CD1DAECD120020B93F /* IGListIndexPathResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDCE261A1DDBC43800DE59DB /* IGListDiffCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1CB1DAECD120020B93F /* IGListDiffCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDCE261B1DDBC43800DE59DB /* IGListMoveIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1D31DAECD120020B93F /* IGListMoveIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDCE261C1DDBC43800DE59DB /* NSObject+IGListDiffable.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1D51DAECD120020B93F /* NSObject+IGListDiffable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDCE261D1DDBC43800DE59DB /* IGListMoveIndexPathInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1D41DAECD120020B93F /* IGListMoveIndexPathInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DDCE261E1DDBC43800DE59DB /* IGListIndexSetResultInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1D01DAECD120020B93F /* IGListIndexSetResultInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DDCE261F1DDBC43800DE59DB /* IGListIndexPathResultInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1CE1DAECD120020B93F /* IGListIndexPathResultInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DDCE26201DDBC43800DE59DB /* IGListMoveIndexInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1D21DAECD120020B93F /* IGListMoveIndexInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,10 +72,19 @@
 		DD7CA1DA1DAECD120020B93F /* IGListDiffCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IGListDiffCore.mm; sourceTree = "<group>"; };
 		DD7CA1EC1DAECD640020B93F /* IGListMoveIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGListMoveIndex.h; sourceTree = "<group>"; };
 		DD7CA1ED1DAECD640020B93F /* IGListMoveIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGListMoveIndex.m; sourceTree = "<group>"; };
+		DDCE26251DDBC43800DE59DB /* IGListDiff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IGListDiff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCE26261DDBC43800DE59DB /* IGListDiff copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "IGListDiff copy-Info.plist"; path = "/Users/inside/Developer/_projects/IGListDiff/IGListDiff copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DD7CA1BA1DAECCC10020B93F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCE26111DDBC43800DE59DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -70,6 +99,7 @@
 			children = (
 				DD7CA1C01DAECCC10020B93F /* IGListDiff */,
 				DD7CA1BF1DAECCC10020B93F /* Products */,
+				DDCE26261DDBC43800DE59DB /* IGListDiff copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				DD7CA1BE1DAECCC10020B93F /* IGListDiff.framework */,
+				DDCE26251DDBC43800DE59DB /* IGListDiff.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +172,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DDCE26121DDBC43800DE59DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCE26131DDBC43800DE59DB /* IGListMacros.h in Headers */,
+				DDCE26141DDBC43800DE59DB /* IGListIndexSetResult.h in Headers */,
+				DDCE26151DDBC43800DE59DB /* IGListDiff.h in Headers */,
+				DDCE26161DDBC43800DE59DB /* IGListExperiments.h in Headers */,
+				DDCE26171DDBC43800DE59DB /* IGListDiffable.h in Headers */,
+				DDCE26181DDBC43800DE59DB /* IGListMoveIndex.h in Headers */,
+				DDCE26191DDBC43800DE59DB /* IGListIndexPathResult.h in Headers */,
+				DDCE261A1DDBC43800DE59DB /* IGListDiffCore.h in Headers */,
+				DDCE261B1DDBC43800DE59DB /* IGListMoveIndexPath.h in Headers */,
+				DDCE261C1DDBC43800DE59DB /* NSObject+IGListDiffable.h in Headers */,
+				DDCE261D1DDBC43800DE59DB /* IGListMoveIndexPathInternal.h in Headers */,
+				DDCE261E1DDBC43800DE59DB /* IGListIndexSetResultInternal.h in Headers */,
+				DDCE261F1DDBC43800DE59DB /* IGListIndexPathResultInternal.h in Headers */,
+				DDCE26201DDBC43800DE59DB /* IGListMoveIndexInternal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -162,19 +214,40 @@
 			productReference = DD7CA1BE1DAECCC10020B93F /* IGListDiff.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		DDCE26091DDBC43800DE59DB /* IGListDiff-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCE26221DDBC43800DE59DB /* Build configuration list for PBXNativeTarget "IGListDiff-iOS" */;
+			buildPhases = (
+				DDCE260A1DDBC43800DE59DB /* Sources */,
+				DDCE26111DDBC43800DE59DB /* Frameworks */,
+				DDCE26121DDBC43800DE59DB /* Headers */,
+				DDCE26211DDBC43800DE59DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IGListDiff-iOS";
+			productName = IGListDiff;
+			productReference = DDCE26251DDBC43800DE59DB /* IGListDiff.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		DD7CA1B51DAECCC10020B93F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Guilherme Rambo";
 				TargetAttributes = {
 					DD7CA1BD1DAECCC10020B93F = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 8C7439RJLG;
 						ProvisioningStyle = Automatic;
+					};
+					DDCE26091DDBC43800DE59DB = {
+						DevelopmentTeam = 8C7439RJLG;
 					};
 				};
 			};
@@ -191,12 +264,20 @@
 			projectRoot = "";
 			targets = (
 				DD7CA1BD1DAECCC10020B93F /* IGListDiff */,
+				DDCE26091DDBC43800DE59DB /* IGListDiff-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DD7CA1BC1DAECCC10020B93F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCE26211DDBC43800DE59DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -216,6 +297,19 @@
 				DD7CA1E91DAECD120020B93F /* IGListMoveIndexPath.m in Sources */,
 				DD7CA1E71DAECD120020B93F /* IGListIndexPathResult.m in Sources */,
 				DD7CA1EB1DAECD120020B93F /* IGListDiffCore.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCE260A1DDBC43800DE59DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCE260B1DDBC43800DE59DB /* NSObject+IGListDiffable.m in Sources */,
+				DDCE260C1DDBC43800DE59DB /* IGListMoveIndex.m in Sources */,
+				DDCE260D1DDBC43800DE59DB /* IGListIndexSetResult.m in Sources */,
+				DDCE260E1DDBC43800DE59DB /* IGListMoveIndexPath.m in Sources */,
+				DDCE260F1DDBC43800DE59DB /* IGListIndexPathResult.m in Sources */,
+				DDCE26101DDBC43800DE59DB /* IGListDiffCore.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +334,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -290,6 +385,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -355,6 +451,50 @@
 			};
 			name = Release;
 		};
+		DDCE26231DDBC43800DE59DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8C7439RJLG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "IGListDiff copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.IGListDiff;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = IGListDiff;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DDCE26241DDBC43800DE59DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8C7439RJLG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "IGListDiff copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.IGListDiff;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = IGListDiff;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -372,6 +512,15 @@
 			buildConfigurations = (
 				DD7CA1C71DAECCC10020B93F /* Debug */,
 				DD7CA1C81DAECCC10020B93F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCE26221DDBC43800DE59DB /* Build configuration list for PBXNativeTarget "IGListDiff-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCE26231DDBC43800DE59DB /* Debug */,
+				DDCE26241DDBC43800DE59DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

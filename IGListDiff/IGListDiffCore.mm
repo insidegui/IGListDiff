@@ -13,7 +13,11 @@
 #import <unordered_map>
 #import <vector>
 
+#if TARGET_OS_OSX
 #import <Cocoa/Cocoa.h>
+#else
+#import <UIKit/UIKit.h>
+#endif
 
 #import <IGListDiff/IGListMacros.h>
 #import <IGListDiff/IGListExperiments.h>
