@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD7CA1C31DAECCC10020B93F /* IGListDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1C11DAECCC10020B93F /* IGListDiff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD7CA1DB1DAECD120020B93F /* IGListDiffable.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1CA1DAECD120020B93F /* IGListDiffable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD7CA1DC1DAECD120020B93F /* IGListDiffCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1CB1DAECD120020B93F /* IGListDiffCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD7CA1DD1DAECD120020B93F /* IGListExperiments.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1CC1DAECD120020B93F /* IGListExperiments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD7CA1DE1DAECD120020B93F /* IGListIndexPathResult.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1CD1DAECD120020B93F /* IGListIndexPathResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD7CA1DF1DAECD120020B93F /* IGListIndexPathResultInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1CE1DAECD120020B93F /* IGListIndexPathResultInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DD7CA1E01DAECD120020B93F /* IGListIndexSetResult.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1CF1DAECD120020B93F /* IGListIndexSetResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD7CA1E11DAECD120020B93F /* IGListIndexSetResultInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1D01DAECD120020B93F /* IGListIndexSetResultInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DD7CA1E21DAECD120020B93F /* IGListMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1D11DAECD120020B93F /* IGListMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD7CA1E31DAECD120020B93F /* IGListMoveIndexInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1D21DAECD120020B93F /* IGListMoveIndexInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DD7CA1E41DAECD120020B93F /* IGListMoveIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1D31DAECD120020B93F /* IGListMoveIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD7CA1E51DAECD120020B93F /* IGListMoveIndexPathInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1D41DAECD120020B93F /* IGListMoveIndexPathInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DD7CA1E61DAECD120020B93F /* NSObject+IGListDiffable.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1D51DAECD120020B93F /* NSObject+IGListDiffable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD7CA1E71DAECD120020B93F /* IGListIndexPathResult.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CA1D61DAECD120020B93F /* IGListIndexPathResult.m */; };
+		DD7CA1E81DAECD120020B93F /* IGListIndexSetResult.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CA1D71DAECD120020B93F /* IGListIndexSetResult.m */; };
+		DD7CA1E91DAECD120020B93F /* IGListMoveIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CA1D81DAECD120020B93F /* IGListMoveIndexPath.m */; };
+		DD7CA1EA1DAECD120020B93F /* NSObject+IGListDiffable.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CA1D91DAECD120020B93F /* NSObject+IGListDiffable.m */; };
+		DD7CA1EB1DAECD120020B93F /* IGListDiffCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD7CA1DA1DAECD120020B93F /* IGListDiffCore.mm */; };
+		DD7CA1EE1DAECD640020B93F /* IGListMoveIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7CA1EC1DAECD640020B93F /* IGListMoveIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD7CA1EF1DAECD640020B93F /* IGListMoveIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CA1ED1DAECD640020B93F /* IGListMoveIndex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD7CA1BE1DAECCC10020B93F /* IGListDiff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IGListDiff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7CA1C11DAECCC10020B93F /* IGListDiff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGListDiff.h; sourceTree = "<group>"; };
+		DD7CA1C21DAECCC10020B93F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7CA1CA1DAECD120020B93F /* IGListDiffable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGListDiffable.h; sourceTree = "<group>"; };
+		DD7CA1CB1DAECD120020B93F /* IGListDiffCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGListDiffCore.h; sourceTree = "<group>"; };
+		DD7CA1CC1DAECD120020B93F /* IGListExperiments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGListExperiments.h; sourceTree = "<group>"; };
+		DD7CA1CD1DAECD120020B93F /* IGListIndexPathResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGListIndexPathResult.h; sourceTree = "<group>"; };
+		DD7CA1CE1DAECD120020B93F /* IGListIndexPathResultInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGListIndexPathResultInternal.h; sourceTree = "<group>"; };
+		DD7CA1CF1DAECD120020B93F /* IGListIndexSetResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGListIndexSetResult.h; sourceTree = "<group>"; };
+		DD7CA1D01DAECD120020B93F /* IGListIndexSetResultInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGListIndexSetResultInternal.h; sourceTree = "<group>"; };
+		DD7CA1D11DAECD120020B93F /* IGListMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGListMacros.h; sourceTree = "<group>"; };
+		DD7CA1D21DAECD120020B93F /* IGListMoveIndexInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGListMoveIndexInternal.h; sourceTree = "<group>"; };
+		DD7CA1D31DAECD120020B93F /* IGListMoveIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGListMoveIndexPath.h; sourceTree = "<group>"; };
+		DD7CA1D41DAECD120020B93F /* IGListMoveIndexPathInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGListMoveIndexPathInternal.h; sourceTree = "<group>"; };
+		DD7CA1D51DAECD120020B93F /* NSObject+IGListDiffable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IGListDiffable.h"; sourceTree = "<group>"; };
+		DD7CA1D61DAECD120020B93F /* IGListIndexPathResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGListIndexPathResult.m; sourceTree = "<group>"; };
+		DD7CA1D71DAECD120020B93F /* IGListIndexSetResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGListIndexSetResult.m; sourceTree = "<group>"; };
+		DD7CA1D81DAECD120020B93F /* IGListMoveIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGListMoveIndexPath.m; sourceTree = "<group>"; };
+		DD7CA1D91DAECD120020B93F /* NSObject+IGListDiffable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IGListDiffable.m"; sourceTree = "<group>"; };
+		DD7CA1DA1DAECD120020B93F /* IGListDiffCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IGListDiffCore.mm; sourceTree = "<group>"; };
+		DD7CA1EC1DAECD640020B93F /* IGListMoveIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGListMoveIndex.h; sourceTree = "<group>"; };
+		DD7CA1ED1DAECD640020B93F /* IGListMoveIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGListMoveIndex.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD7CA1BA1DAECCC10020B93F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD7CA1B41DAECCC10020B93F = {
+			isa = PBXGroup;
+			children = (
+				DD7CA1C01DAECCC10020B93F /* IGListDiff */,
+				DD7CA1BF1DAECCC10020B93F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD7CA1BF1DAECCC10020B93F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CA1BE1DAECCC10020B93F /* IGListDiff.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD7CA1C01DAECCC10020B93F /* IGListDiff */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CA1C91DAECCC50020B93F /* Source */,
+				DD7CA1C11DAECCC10020B93F /* IGListDiff.h */,
+				DD7CA1C21DAECCC10020B93F /* Info.plist */,
+			);
+			path = IGListDiff;
+			sourceTree = "<group>";
+		};
+		DD7CA1C91DAECCC50020B93F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CA1EC1DAECD640020B93F /* IGListMoveIndex.h */,
+				DD7CA1ED1DAECD640020B93F /* IGListMoveIndex.m */,
+				DD7CA1CA1DAECD120020B93F /* IGListDiffable.h */,
+				DD7CA1CB1DAECD120020B93F /* IGListDiffCore.h */,
+				DD7CA1CC1DAECD120020B93F /* IGListExperiments.h */,
+				DD7CA1CD1DAECD120020B93F /* IGListIndexPathResult.h */,
+				DD7CA1CE1DAECD120020B93F /* IGListIndexPathResultInternal.h */,
+				DD7CA1CF1DAECD120020B93F /* IGListIndexSetResult.h */,
+				DD7CA1D01DAECD120020B93F /* IGListIndexSetResultInternal.h */,
+				DD7CA1D11DAECD120020B93F /* IGListMacros.h */,
+				DD7CA1D21DAECD120020B93F /* IGListMoveIndexInternal.h */,
+				DD7CA1D31DAECD120020B93F /* IGListMoveIndexPath.h */,
+				DD7CA1D41DAECD120020B93F /* IGListMoveIndexPathInternal.h */,
+				DD7CA1D51DAECD120020B93F /* NSObject+IGListDiffable.h */,
+				DD7CA1D61DAECD120020B93F /* IGListIndexPathResult.m */,
+				DD7CA1D71DAECD120020B93F /* IGListIndexSetResult.m */,
+				DD7CA1D81DAECD120020B93F /* IGListMoveIndexPath.m */,
+				DD7CA1D91DAECD120020B93F /* NSObject+IGListDiffable.m */,
+				DD7CA1DA1DAECD120020B93F /* IGListDiffCore.mm */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DD7CA1BB1DAECCC10020B93F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7CA1E21DAECD120020B93F /* IGListMacros.h in Headers */,
+				DD7CA1E01DAECD120020B93F /* IGListIndexSetResult.h in Headers */,
+				DD7CA1C31DAECCC10020B93F /* IGListDiff.h in Headers */,
+				DD7CA1DD1DAECD120020B93F /* IGListExperiments.h in Headers */,
+				DD7CA1DB1DAECD120020B93F /* IGListDiffable.h in Headers */,
+				DD7CA1EE1DAECD640020B93F /* IGListMoveIndex.h in Headers */,
+				DD7CA1DE1DAECD120020B93F /* IGListIndexPathResult.h in Headers */,
+				DD7CA1DC1DAECD120020B93F /* IGListDiffCore.h in Headers */,
+				DD7CA1E41DAECD120020B93F /* IGListMoveIndexPath.h in Headers */,
+				DD7CA1E61DAECD120020B93F /* NSObject+IGListDiffable.h in Headers */,
+				DD7CA1E51DAECD120020B93F /* IGListMoveIndexPathInternal.h in Headers */,
+				DD7CA1E11DAECD120020B93F /* IGListIndexSetResultInternal.h in Headers */,
+				DD7CA1DF1DAECD120020B93F /* IGListIndexPathResultInternal.h in Headers */,
+				DD7CA1E31DAECD120020B93F /* IGListMoveIndexInternal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DD7CA1BD1DAECCC10020B93F /* IGListDiff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7CA1C61DAECCC10020B93F /* Build configuration list for PBXNativeTarget "IGListDiff" */;
+			buildPhases = (
+				DD7CA1B91DAECCC10020B93F /* Sources */,
+				DD7CA1BA1DAECCC10020B93F /* Frameworks */,
+				DD7CA1BB1DAECCC10020B93F /* Headers */,
+				DD7CA1BC1DAECCC10020B93F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGListDiff;
+			productName = IGListDiff;
+			productReference = DD7CA1BE1DAECCC10020B93F /* IGListDiff.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD7CA1B51DAECCC10020B93F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Guilherme Rambo";
+				TargetAttributes = {
+					DD7CA1BD1DAECCC10020B93F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8C7439RJLG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DD7CA1B81DAECCC10020B93F /* Build configuration list for PBXProject "IGListDiff" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD7CA1B41DAECCC10020B93F;
+			productRefGroup = DD7CA1BF1DAECCC10020B93F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD7CA1BD1DAECCC10020B93F /* IGListDiff */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD7CA1BC1DAECCC10020B93F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD7CA1B91DAECCC10020B93F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7CA1EA1DAECD120020B93F /* NSObject+IGListDiffable.m in Sources */,
+				DD7CA1EF1DAECD640020B93F /* IGListMoveIndex.m in Sources */,
+				DD7CA1E81DAECD120020B93F /* IGListIndexSetResult.m in Sources */,
+				DD7CA1E91DAECD120020B93F /* IGListMoveIndexPath.m in Sources */,
+				DD7CA1E71DAECD120020B93F /* IGListIndexPathResult.m in Sources */,
+				DD7CA1EB1DAECD120020B93F /* IGListDiffCore.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DD7CA1C41DAECCC10020B93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD7CA1C51DAECCC10020B93F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD7CA1C71DAECCC10020B93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8C7439RJLG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = IGListDiff/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.IGListDiff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DD7CA1C81DAECCC10020B93F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8C7439RJLG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = IGListDiff/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.IGListDiff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD7CA1B81DAECCC10020B93F /* Build configuration list for PBXProject "IGListDiff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7CA1C41DAECCC10020B93F /* Debug */,
+				DD7CA1C51DAECCC10020B93F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7CA1C61DAECCC10020B93F /* Build configuration list for PBXNativeTarget "IGListDiff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7CA1C71DAECCC10020B93F /* Debug */,
+				DD7CA1C81DAECCC10020B93F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD7CA1B51DAECCC10020B93F /* Project object */;
+}
