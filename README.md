@@ -1,0 +1,1 @@
+# NOTE: this project is not necessary anymore. [IGListKit supports macOS now](https://github.com/instagram/IGListKit).
